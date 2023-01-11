@@ -1,0 +1,19 @@
+{
+  "name": "unit-converter-svelte",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "svelte": "^3.54.0",
+    "vite": "^4.0.0",
+    "vitest": "^0.27.0",
+    "vitest-localstorage-mock": "^0.0.1"
+  }
+}
